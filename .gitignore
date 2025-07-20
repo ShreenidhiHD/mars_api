@@ -1,0 +1,45 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Variables with secrets
+terraform.tfvars
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.env.local
+.env.production
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Docker
+Dockerfile.prod
+
+# AWS
+.aws/
+
+# Logs
+*.log
+
+# Zip files
+*.zip

@@ -1,0 +1,19 @@
+# Terraform Variables Example
+# Copy this to terraform.tfvars and update with your values
+
+aws_region = "us-east-1"
+aws_profile = "default"  # Profile name from ~/.aws/credentials
+
+# Database password (make it strong!)
+db_password = "your_secure_database_password_here"
+
+# Your Gemini API key
+gemini_api_key = "your_gemini_api_key_here"
+
+# Your domain name (buy from Route53 or point existing domain to Route53)
+domain_name = "yourdomain.com"
+
+# Billing alert threshold in USD
+billing_threshold = 2
+# Your email for billing alerts
+alert_email = "your-email@gmail.com"
